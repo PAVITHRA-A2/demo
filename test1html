@@ -1,0 +1,21 @@
+<html>
+    <title id="two">
+        FIRST TIME IN JAVASCRIPT
+    </title>
+    <body>
+        <p id="one">Hello word</p>
+    </body>
+    <style>
+        body{
+            background-color: aqua;
+        }
+    </style>
+    <script>
+        //select paragraph using id
+        var para=document.getElementById("two")
+        para.textContent="Bye World"  
+        console.log(para.textContent)
+        //para.textContent="boy"        
+    </script>
+
+</html>
